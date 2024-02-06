@@ -124,13 +124,17 @@
     position: relative;
 }
 .btn{
-    height: 40px;
-    background-color: #ba9ae4;
-    border: none;
-    border-radius: 10px;
-    color: #3b1b65;
-    font-size: 15px;
-    font-weight: bolder;
+    padding: 10px;
+    color: #6d32bb;
+    font-weight: bold;
+    text-decoration: none;
+    border:solid 2px #6d32bb;
+    border-radius: 15px;
+    transition: background-color 0.3s ease;
+}
+.btn:hover{
+    background-color: #6d32bb;
+    color: white;
 }
 .button{
     display: flex;
